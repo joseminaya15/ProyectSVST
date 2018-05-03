@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="public/plugins/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="public/plugins/mdl/material.min.css">
     <link rel="stylesheet" href="public/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="public/fonts/signika.css">
     <link rel="stylesheet" href="public/css/m-p.min.css">
     <link rel="stylesheet" href="public/css/index.css">
 </head>
@@ -218,61 +219,6 @@
 				</div>
 				<div class="inline">
 					<a href="tel:+16405055" class="mobile">(01) 640 5055</a>
-				</div>
-			</div>
-			<div class="mdl-mega-footer__middle-section">
-				<div class="mdl-mega-footer__drop-down-section">
-					<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-					<h1 class="mdl-mega-footer__heading">Enlaces</h1>
-					<ul class="mdl-mega-footer__link-list">
-						<li><a href="#">Sedes</a></li>
-						<li><a href="#">Con&oacute;cenos</a></li>
-						<li><a href="#">Horarios y Vacantes</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Cont&aacute;ctanos</a></li>
-					</ul>
-				</div>
-				<div class="mdl-mega-footer__drop-down-section">
-					<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-					<h1 class="mdl-mega-footer__heading">Programas y Cursos</h1>
-					<ul class="mdl-mega-footer__link-list">
-						<li><a href="#">J&oacute;venes y Adultos</a></li>
-						<li><a href="#">Ni&ntilde;os y Juniors</a></li>
-						<li><a href="#">Profesores</a></li>
-					</ul>
-				</div>
-				<div class="mdl-mega-footer__drop-down-section">
-					<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-					<h1 class="mdl-mega-footer__heading">Modalidades</h1>
-					<ul class="mdl-mega-footer__link-list">
-						<li><a href="#">Inmersiones</a></li>
-						<li><a href="#">Otros Idiomas</a></li>
-						<li><a href="#">Cursos en L&iacute;nea</a></li>
-						<li><a href="#">Cursos Semipresencial</a></li>
-					</ul>
-				</div>
-				<div class="mdl-mega-footer__drop-down-section">
-					<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-					<h1 class="mdl-mega-footer__heading">Certificaciones</h1>
-					<ul class="mdl-mega-footer__link-list">
-						<li><a href="#">certifica tu nivel de ingl&eacute;s</a></li>
-						<li><a href="#">Ex&aacute;menes Cambridge</a></li>
-						<li><a href="#">Certificaci&oacute;n Angia Ascentis</a></li>
-						<li><a href="#">Certificaci&oacute;n ELASH</a></li>
-						<li><a href="#">Certificaci&oacute;n de nivel</a></li>
-						<li><a href="#">Preparaci&oacute;n Evaluaciones</a></li>
-					</ul>
-				</div>
-				<div class="mdl-mega-footer__drop-down-section">
-					<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-					<h1 class="mdl-mega-footer__heading">Mundo Corporativo</h1>
-					<ul class="mdl-mega-footer__link-list">
-						<li><a href="#">Eval&uacute;a a tu personal</a></li>
-						<li><a href="#">Te asesoramos</a></li>
-						<li><a href="#">Programas Corporativos</a></li>
-						<li><a href="#">Programas para colegios e institutos</a></li>
-						<li><a href="#">Convenios y beneficios</a></li>
-					</ul>
 				</div>
 			</div>
 		</div>

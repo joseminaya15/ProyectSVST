@@ -13,6 +13,22 @@
     autoplay: true,
     autoplayTimeout: 6000
 });
+$('#better .owl-carousel').owlCarousel({
+    lazyLoad: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 3
+        }
+    },
+    navigation: false,
+    nav: true,
+    loop: false,
+    autoplay: false,
+    autoplayTimeout: 5000
+});
 var $win = $(window);
 $win.scroll(function () {
     if ($win.scrollTop() > 45) {

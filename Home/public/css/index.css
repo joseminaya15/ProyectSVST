@@ -1,4 +1,12 @@
-﻿
+﻿body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'SignikaRegular';
+}
+h2 {
+    font-family: 'SignikaBold';
+}
 /*GENERAL*/
 .background-gris {
     background-color: #F2F2F2;
@@ -7,8 +15,7 @@
     color: #014489;
     margin-bottom: 30px;
     font-size: 40px;
-    font-family: 'Signika', sans-serif;
-    font-weight: 700;
+    font-family: 'SignikaBold';
     line-height: 38px;
 }
 /*HEADER*/
@@ -94,8 +101,7 @@
 .navbar-default .navbar-nav > li > a {
     background-color: transparent;
     color: #014489 !important;
-    font-family: 'Signika', sans-serif;
-    font-weight: 600;
+    font-family: 'SignikaMedium';
 }
 .navbar-default .navbar-brand {
     padding: 0;
@@ -219,8 +225,7 @@
 }
 .cont-carousel h2 {
     color: #FFFFFF;
-    font-family: 'Signika', sans-serif;
-    font-weight: 600;
+    font-family: 'SignikaBold';
     font-size: 90px;
     line-height: 80px;
     text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
@@ -235,7 +240,7 @@
     text-transform: initial;
     border-radius: 20px;
     padding: 0 30px;
-    font-family: 'Signika', sans-serif;
+    font-family: 'SignikaBold';
     font-weight: 600;
     height: 45px;
     line-height: 44px;
@@ -334,8 +339,7 @@
     background-color: #FB4C94;
     color: #FFFFFF !important;
     text-transform: initial;
-    font-family: 'Signika', sans-serif;
-    font-weight: 600;
+    font-family: 'SignikaBold';
     border-radius: 25px;
     margin: 20px 0;
     padding: 0px 30px;
@@ -350,16 +354,14 @@
 }
 .mdl-card.mdl-card-better p {
     color: #014489;
-    font-family: 'Signika', sans-serif;
-    font-weight: 600;
+    font-family: 'SignikaBold';
     line-height: 20px;
     font-size: 18px;
 }
 .mdl-card-video .mdl-card__supporting-text a,
 .mdl-card.mdl-card-better a {
     color: #014489;
-    font-family: 'Signika', sans-serif;
-    font-weight: 600;
+    font-family: 'SignikaBold';
     background-color: transparent !important;
     box-shadow: none;
     border-radius: 20px;
@@ -403,10 +405,17 @@
 }
 .mdl-card-video .mdl-card__supporting-text p {
     color: #757575;
+    font-size: 18px;
 }
 .mdl-card-video .mdl-card__supporting-text p a {
     color: #757575;
     text-decoration: none;
+}
+.navbar-nav > li {
+    padding: 10px 0;
+}
+.navbar-default .navbar-brand {
+    margin: 15px 0 5px 0;
 }
 /*FOOTER*/
 footer {

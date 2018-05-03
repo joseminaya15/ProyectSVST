@@ -353,6 +353,69 @@
     text-transform: initial;
     font-size: 18px;
 }
+/*NOSOTROS*/
+.mdl-card-video {
+    background-color: transparent;
+    padding: 0px;
+    width: 100%;
+    display: inline-block;
+}
+.mdl-card-video .mdl-card__title {
+    background-color: transparent;
+    position: relative;
+    padding: 0px;
+    float: left;
+    -webkit-transition: float .5s ease-in, width .5s ease-in;
+    -moz-transition: float .5s ease-in, width .5s ease-in;
+    -ms-transition: float .5s ease-in, width .5s ease-in;
+    -o-transition: float .5s ease-in, width .5s ease-in;
+    transition: float .5s ease-in, width .5s ease-in;
+    width: 100%;
+    max-width: 560px;
+}
+.video-max-width {
+    position: relative;
+}
+.video-max-width video,
+.mdl-card-video .mdl-card__title video {
+    width: 100%;
+}
+.video-max-width button,
+.mdl-card-video .mdl-card__title button {
+    box-shadow: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    background-color: transparent;
+    height: 90px;
+    min-width: 90px;
+    width: 90px;
+}
+.mdl-card-video .mdl-card__supporting-text {
+    padding: 20px;
+    float: right;
+    width: 100%;
+    max-width: -webkit-calc( 100% - 560px );
+    max-width: -moz-calc( 100% - 560px );
+    max-width: -ms-calc( 100% - 560px );
+    max-width: -o-calc( 100% - 560px );
+    max-width: calc( 100% - 560px );
+    color: #FFFFFF;
+    transition: float .5s ease-in, width .5s ease-in, min-height .5s ease-in;
+}
+.mdl-card-video .mdl-card__supporting-text p {
+    color: #757575;
+}
+.mdl-card-video .mdl-card__supporting-text p a {
+    color: #757575;
+    text-decoration: none;
+}
 /*FOOTER*/
 footer {
     background-color: #0A4B74;
@@ -430,4 +493,271 @@ footer a {
 .mdl-mega-footer--link-list li,
 .mdl-mega-footer__link-list li {
     line-height: 24px;
+}
+@media ( min-width : 768px ) {
+    .navbar-default .navbar-nav li a:after {
+        webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border: 1px solid #00438E;
+        bottom: -3px;
+        content: " ";
+        display: block;
+        position: relative;
+        -webkit-transition: all 280ms ease-in-out;
+        -moz-transition: all 280ms ease-in-out;
+        -o-transition: all 280ms ease-in-out;
+        -ms-transition: all 280ms ease-in-out;
+        transition: all 280ms ease-in-out;
+        width: 0;
+        opacity: 0;
+    }
+    .navbar-default .navbar-nav li.active-link a.link:after,
+    .navbar-default .navbar-nav li a.link:hover:after {
+        webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-color: #00438E;
+        -webkit-transition: width 350ms ease-in-out;
+        -moz-transition: width 350ms ease-in-out;
+        -o-transition: width 350ms ease-in-out;
+        -ms-transition: width 350ms ease-in-out;
+        transition: width 350ms ease-in-out;
+        width: 30px;
+        opacity: 1;
+    }
+}
+@media ( max-width : 768px ) {
+    .header {
+        display: none;
+    }
+    #principal .owl-theme .owl-nav.disabled + .owl-dots {
+        display: none;
+    }
+    #principal .owl-carousel .owl-item .item img:NTH-CHILD(1) {
+        display: none
+    }
+    #principal .owl-carousel .owl-item .item img:NTH-CHILD(2) {
+        display: block;
+    }
+    .mdl-mega-footer--drop-down-section,
+    .mdl-mega-footer--drop-down-section:nth-child(3),
+    .mdl-mega-footer--drop-down-section:nth-child(4),
+    .mdl-mega-footer__drop-down-section,
+    .mdl-mega-footer__drop-down-section:nth-child(3),
+    .mdl-mega-footer__drop-down-section:nth-child(4) {
+        width: 100%;
+    }
+    footer .inline {
+        max-width: 100%;
+    }
+    .mdl-card-video .mdl-card__supporting-text,
+    .mdl-card-video .mdl-card__title {
+        max-width: 100%;
+    }
+    .title-container {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .title-container .separated {
+        display: none;
+    }
+    #prueba .col-md-9 {
+        text-align: center;
+    }
+    #prueba h2 {
+        margin-bottom: 25px;
+    }
+    .navbar-default {
+        padding: 5px 0;
+        position: fixed;
+        top: 0;
+    }
+    .navbar-brand > img {
+        max-width: 150px;
+    }
+    .navbar-default .navbar-brand {
+        padding: 10px;
+        margin: 0;
+    }
+    .active-link .separated {
+        display: none;
+    }
+    .footer-menu {
+        padding: 30px 0;
+    }
+    .mdl-card-informacion {
+        display: none;
+    }
+    #costo .sedes,
+    #costo .title {
+        max-width: 100%;
+    }
+    #costo .sedes {
+        text-align: left;
+    }
+    .sedes .noticias {
+        max-width: 120px;
+        margin: 0 3px;
+    }
+    #prueba.prueba {
+        padding: 60px 10px 40px 10px;
+    }
+}
+@media ( max-width : 420px ) {
+    .mdl-card-comunicacion .mdl-card__title {
+        float: left;
+        width: 100%;
+        max-width: 80px;
+        padding: 25px;
+        margin-top: 15px;
+    }
+    .mdl-card-comunicacion .mdl-card__supporting-text {
+        float: right;
+        width: 100%;
+        max-width: calc(100% - 80px);
+        padding: 25px 16px;
+    }
+    .mdl-card.mdl-card-comunicacion p {
+        font-size: 20px;
+        max-width: 180px;
+    }
+    .cont-carousel {
+        position: absolute;
+        top: inherit;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 10;
+        -webkit-transform: inherit;
+        -moz-transform: inherit;
+        -ms-transform: inherit;
+        -o-transform: inherit;
+        transform: inherit;
+        max-width: 300px;
+        margin: auto;
+    }
+    .mdl-card.mdl-card-better {
+        margin: 10px 0;
+    }
+    .section .title {
+        font-size: 40px;
+        line-height: 36px;
+    }
+    #comunicacion .container {
+        padding: 0;
+    }
+    .card {
+        margin: 0;
+    }
+    .mdl-card.mdl-card-comunicacion {
+        max-width: 100%;
+        margin: 0;
+        display: block;
+        border-radius: 0;
+        border: 0;
+        border-top: 2px solid #FFFFFF;
+    }
+    .cont-carousel h2 {
+        font-size: 36px;
+        line-height: 34px;
+    }
+    #comunicacion.section,
+    #better .container {
+        padding: 0;
+    }
+    #better.section {
+        padding: 25px 0;
+    }
+    .mdl-card.mdl-card-better {
+        max-width: 100%;
+    }
+    .title-summer {
+        margin: 50px 15px;
+    }
+    .title-summer h2.title {
+        font-size: 40px;
+        line-height: 32px;
+        max-width: 200px;
+    }
+    .title-summer p {
+        display: block;
+    }
+    .mdl-card-secciones {
+        max-width: 100%;
+        margin: 0;
+        background-color: #014489;
+        display: block;
+        border-top: 3px solid #FFFFFF;
+    }
+    .mdl-card-secciones p {
+        font-size: 20px;
+    }
+    .mdl-card-secciones .mdl-card__title {
+        float: left;
+        width: 100%;
+        max-width: 60px;
+        margin-top: 7px;
+        padding-left: 25px;
+    }
+    .mdl-card-secciones .mdl-card__supporting-text {
+        float: right;
+        width: 100%;
+        max-width: calc(100% - 60px);
+        padding: 20px 5px;
+    }
+    .lista p {
+        max-width: 250px;
+    }
+    .mdl-card-nivel .mdl-card__supporting-text,
+    .mdl-card-nivel .mdl-card__title {
+        float: none;
+    }
+    .mdl-card-nivel .mdl-card__title {
+        max-width: 100px;
+        padding: 4px;
+    }
+    .mdl-card-nivel .mdl-card__title h2 {
+        font-size: 60px;
+    }
+    .mdl-card-nivel .mdl-card__supporting-text {
+        max-width: 100%;
+        padding: 20px 0;
+    }
+    .mdl-card-nivel .mdl-card__supporting-text h2 {
+        margin: 15px 0;
+    }
+    .table-mobile {
+        display: block
+    }
+    #estructura .table-responsive {
+        display: none;
+    }
+    .table-mobile {
+        margin: 20px 0;
+    }
+    .table-mobile .table {
+        margin: 10px 0;
+    }
+    .table > thead > tr > td,
+    .table > thead > tr > th,
+    .table > tbody > tr > td,
+    .table > tbody > tr > th {
+        padding: 12px;
+    }
+    .mdl-card-secciones .mdl-card__title img {
+        display: none;
+    }
+    .mdl-card-secciones .mdl-card__title img.icono-blanco {
+        display: block;
+    }
+    .mdl-certificaciones {
+        padding: 25px 0;
+    }
+    #costo .nav-tabs li {
+        max-width: 120px;
+    }
+    #costo .title {
+        margin-bottom: 30px;
+    }
 }

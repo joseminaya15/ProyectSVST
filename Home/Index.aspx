@@ -169,8 +169,7 @@
 			</div>
 			<div class="mdl-card mdl-card-video">
 				<div class="mdl-card__title">
-					<button id="view-video" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="videoplay()"><i class="mdi mdi-play_circle_filled"></i></button>
-					<video id="myvideo" src="public/video/comunicado.mp4" poster="public/img/poster_image.png"></video>
+					<img src="public/img/fondo/mision.jpg" />
 				</div>
 				<div class="mdl-card__supporting-text">
 					<h2 class="title m-0">Vive comunicado</h2>

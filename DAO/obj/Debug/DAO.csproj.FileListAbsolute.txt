@@ -1,0 +1,6 @@
+C:\Users\Valery\Source\Repos\ProyectSVST\DAO\bin\Debug\DAO.dll
+C:\Users\Valery\Source\Repos\ProyectSVST\DAO\bin\Debug\DAO.pdb
+C:\Users\Valery\Source\Repos\ProyectSVST\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Valery\Source\Repos\ProyectSVST\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Valery\Source\Repos\ProyectSVST\DAO\obj\Debug\DAO.dll
+C:\Users\Valery\Source\Repos\ProyectSVST\DAO\obj\Debug\DAO.pdb

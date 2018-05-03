@@ -1,0 +1,6 @@
+C:\Users\Valery\Source\Repos\ProyectSVST\CTR\bin\Debug\CTR.dll
+C:\Users\Valery\Source\Repos\ProyectSVST\CTR\bin\Debug\CTR.pdb
+C:\Users\Valery\Source\Repos\ProyectSVST\CTR\obj\Debug\CTR.csprojResolveAssemblyReference.cache
+C:\Users\Valery\Source\Repos\ProyectSVST\CTR\obj\Debug\CTR.csproj.CoreCompileInputs.cache
+C:\Users\Valery\Source\Repos\ProyectSVST\CTR\obj\Debug\CTR.dll
+C:\Users\Valery\Source\Repos\ProyectSVST\CTR\obj\Debug\CTR.pdb

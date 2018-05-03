@@ -51,37 +51,6 @@
     			</div>
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     			    <ul class="nav navbar-nav navbar-right">
-    				    <li class="active-link">
-    				        <div class="btn-group">
-							  	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Programas y Cursos <span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="menu">
-									    <a href="#">J&oacute;venes y Adultos</a>
-									    <ul class="link-interno">
-											<li><a href="jovenes_adultos.html">Ingl&eacute;s General</a></li>
-											<li><a href="#">Club de conversi&oacute;n</a></li>
-											<li><a href="#">Pack Individuales</a></li>
-									    </ul>
-									</li>
-									<li role="separator" class="divider"></li>
-									<li class="menu one">
-									    <a href="#">Ni&ntilde;os y Juniors</a>
-									    <ul class="link-interno">
-											<li><a href="summer_Camp.html">Summer Camp</a></li>
-									    </ul>
-									</li>
-									<li role="separator" class="divider"></li>
-									<li class="menu one">
-									    <a href="#">Profesores</a>
-									    <ul class="link-interno">
-											<li><a href="exam_cambridge.html">Cambridge</a></li>
-									    </ul>
-									</li>
-								</ul>
-							</div>
-						</li>
     				    <li><a href="" class="link">Inicio</a></li>
     				    <li><a href="" class="link">Nosotros</a></li>
     				    <li><a href="" class="link">Paquetes</a></li>
@@ -158,26 +127,15 @@
 						<p>Zona para alumnos Campus Virtual</p>
 					</div>
 				</div>
-				<div class="mdl-card mdl-card-comunicacion">
-					<div class="mdl-card__title">
-						<img src="public/img/14.png">
-					</div>
-					<div class="mdl-card__supporting-text text-left">
-						<p>Conoce tu nivel de Ingl&eacute;s</p>
-					</div>
-				</div>
 			</div>
 			<div class="mdl-card mdl-card-video">
 				<div class="mdl-card__title">
 					<img src="public/img/fondo/mision.jpg" />
 				</div>
 				<div class="mdl-card__supporting-text">
-					<h2 class="title m-0">Vive comunicado</h2>
+					<h2 class="title m-0">Misi&oacute;n</h2>
 					<div class="separated m-b-20"></div>
-					<p class="m-b-20">Sabemos que eres diferente, por ello, hemos creado la metodolog&iacute;a Euro Xperience, metodolog&iacute;a diseñada
-						para que t&uacute; seas el actor principal de tu propio aprendizaje. Ya que no nos conformamos con que aprendes un idioma
-						adem&aacute;s queremos que lo vivas, por eso, nuestras clases est&aacute;n dise&ntilde;adas para que cada alumno descubra su potencial
-						mdeiante din&aacute;micas y logre asi, expresar su mundo.</p>
+					<p class="m-b-20">Brindar internet con calidad de servicio a zonas rurales de dificil acceso, en donde no hay presencia de las grandes operadoras, de esta manera mejorando la calidad de vida de los peruanos.</p>
 						<a href="#">Conoce m&aacute;s <i class="mdi mdi-keyboard_arrow_right arrow"></i><i class="mdi mdi-keyboard_arrow_right arrow"></i></a>
 				</div>
 			</div>

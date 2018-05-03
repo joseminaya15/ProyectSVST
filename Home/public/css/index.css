@@ -1,4 +1,17 @@
-﻿/*HEADER*/
+﻿
+/*GENERAL*/
+.background-gris {
+    background-color: #F2F2F2;
+}
+.section .title {
+    color: #014489;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    line-height: 38px;
+}
+/*HEADER*/
 .header {
     position: relative;
     background-color: #0A4B74;
@@ -371,41 +384,20 @@
     -o-transition: float .5s ease-in, width .5s ease-in;
     transition: float .5s ease-in, width .5s ease-in;
     width: 100%;
-    max-width: 560px;
+    max-width: 400px;
 }
-.video-max-width {
-    position: relative;
-}
-.video-max-width video,
-.mdl-card-video .mdl-card__title video {
+.mdl-card-video .mdl-card__title img {
     width: 100%;
-}
-.video-max-width button,
-.mdl-card-video .mdl-card__title button {
-    box-shadow: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    z-index: 10;
-    background-color: transparent;
-    height: 90px;
-    min-width: 90px;
-    width: 90px;
 }
 .mdl-card-video .mdl-card__supporting-text {
     padding: 20px;
     float: right;
     width: 100%;
-    max-width: -webkit-calc( 100% - 560px );
-    max-width: -moz-calc( 100% - 560px );
-    max-width: -ms-calc( 100% - 560px );
-    max-width: -o-calc( 100% - 560px );
-    max-width: calc( 100% - 560px );
+    max-width: -webkit-calc( 100% - 400px );
+    max-width: -moz-calc( 100% - 400px );
+    max-width: -ms-calc( 100% - 400px );
+    max-width: -o-calc( 100% - 400px );
+    max-width: calc( 100% - 400px );
     color: #FFFFFF;
     transition: float .5s ease-in, width .5s ease-in, min-height .5s ease-in;
 }
